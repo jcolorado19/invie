@@ -1,0 +1,10 @@
+.portada{
+  background-image: url('../images/background.png');
+  color: #fff;
+  &__title{
+    font-size: 70px;
+  }
+  &__subtitle{
+    font-size: 24px;
+  }
+}

@@ -1,0 +1,12 @@
+.guitarras{
+  color: #1F313C;
+  &__title{
+    font-size: 35px;
+  }
+
+  &__article{
+    &__title{
+      font-size: 50px;
+    }
+  }
+}

@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAEA,CAAC;EACC,MAAM,EAAE,GAAG;EACX,OAAO,EAAE,GAAG;;AAGd,IAAI;EACF,gBAAgB,EARV,MAAM",
-"sources": ["../sass/main.scss"],
+"mappings": "AACE,aAAO;EACL,SAAS,EAAE,IAAI;;ACFnB,QAAQ;EACN,gBAAgB,EAAE,+BAA+B;EACjD,KAAK,EAAE,IAAI;EACX,eAAQ;IACN,SAAS,EAAE,IAAI;EAEjB,kBAAW;IACT,SAAS,EAAE,IAAI;;ACPnB,UAAU;EACR,KAAK,EAAE,OAAO;EACd,iBAAQ;IACN,SAAS,EAAE,IAAI;EAIf,0BAAQ;IACN,SAAS,EAAE,IAAI",
+"sources": ["../sass/header.scss","../sass/portada.scss","../sass/guitarras.scss"],
 "names": [],
 "file": "main.css"
 }
