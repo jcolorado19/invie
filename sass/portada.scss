@@ -1,11 +1,17 @@
 .portada{
   background-image: url('../images/background.png');
   color: #fff;
+  padding: 20px;
   &__title{
+    font-family: 'Montserrat', sans-serif;
     font-size: 70px;
+    margin: 70px 0 0 0;
   }
   &__subtitle{
-    font-family: 'Montserrat', sans-serif;
     font-size: 24px;
+    margin-top: 0;
+  }
+  &__button{
+    margin-bottom: 70px;
   }
 }

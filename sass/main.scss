@@ -3,8 +3,12 @@
 @import "portada";
 @import "guitarras";
 
-// font-family: 'Montserrat', sans-serif;
-
 body{
+  margin: 0;
   font-family: 'Allerta', sans-serif;
+}
+
+.container{
+  width: 800px;
+  margin: auto;
 }
