@@ -1,8 +1,11 @@
 .header{
+  position: relative;
   &__logotipo{
     display: inline-block;
   }
   &__menu{
+    position: absolute;
+    right: 0;
     font-size: 24px;
     display: inline-block;
     & .menu{
