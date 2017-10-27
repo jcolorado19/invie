@@ -2,6 +2,7 @@
 @import "header";
 @import "portada";
 @import "guitarras";
+@import "footer";
 
 body{
   margin: 0;
@@ -30,4 +31,13 @@ body{
   float: right;
   right: 0;
   top: -125px;
+}
+
+.button{
+  margin-bottom: 70px;
+  border-radius: 6px;
+  border: none;
+  background-color: #fd324e;
+  color: white;
+  padding: 7px;
 }

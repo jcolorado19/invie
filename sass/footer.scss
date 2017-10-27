@@ -1,0 +1,47 @@
+.footer{
+  background-color: #273b47;
+  & .container{
+    display: flex;
+    justify-content: space-between;
+  }
+  &__contacto{
+    display: flex;
+    width: 300px;
+    flex-wrap: wrap;
+    align-items: center;
+    & strong{
+      display: block;
+    }
+    &__img{
+      display: block;
+    }
+    &--a{
+      color: white;
+      text-decoration: none;
+      margin: 10px 10px 10px 0;
+    }
+  }
+  &__formulario{
+    display: flex;
+    flex-flow: row;
+    width: 400px;
+    color: white;
+    padding: 30px 10px;
+    & label, & .sexo, & .intereses{
+      margin: 10px 0;
+    }
+    &--col1{
+      display: flex;
+      flex-flow: column;
+      margin-right: 15px;
+      & label{
+        font-size: 15px;
+      }
+    }
+    &--col2{
+      display: flex;
+      flex-flow: column;
+      align-items: flex-start;
+    }
+  }
+}
