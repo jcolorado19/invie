@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Precios de tus mejores guitarras!!</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Allerta" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <header class="header container"> <!-- header -->
+      <figure class="header__logotipo"><!-- logotipo -->
+        <img src="images/invie.png" alt="Imagen logotipo" width="186px" height="60px">
+      </figure>
+      <nav class="header__menu"><!-- menu -->
+        <ul class="menu">
+          <li class="menu__item"><a href="index.html">Home</a></li>
+          <li class="menu__item"><a href="index.html#guitarras">Guitarras</a></li>
+          <li class="menu__item"><a href="precios.html">Precios</a></li>
+        </ul>
+      </nav>
+    </header>
+
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__contacto">
+          <img class="footer__contacto__img" src="images/invie-white.png" alt="Invie en blanco">
+          <a class="footer__contacto--a" href="tel:+573058506945"><strong>Teléfono</strong><span>3058506945</span></a>
+          <a class="footer__contacto--a" href="mailto:contacto@invie.com"><strong>E-mail</strong><span>contacto@invie.com</span></a>
+        </div>
+        <form class="footer__formulario">
+          <div class="footer__formulario--col1">
+            <label for="nombre">Nombre</label>
+            <input type="text" name="" value="" id="nombre">
+            <label for="email">Email</label>
+            <input type="email" name="" value="" id="email">
+            <div class="sexo">
+              <label for="mujer">
+                <input type="radio" name="sexo" id="mujer" value="mujer" checked>Mujer
+              </label>
+              <label for="hombre">
+                <input type="radio" name="sexo" id="hombre" value="hombre">Hombre
+              </label>
+            </div>
+            <div class="intereses">
+              <label for="cotizacion">
+                <input checked type="checkbox" name="intereses" id="cotizacion" value="cotizacion">Cotización
+              </label>
+              <label for="reclamos">
+                <input type="checkbox" name="intereses" id="reclamos" value="reclamos">Reclamos
+              </label>
+              <label for="comentarios">
+                <input type="checkbox" name="intereses" id="comentarios" value="comentarios">Comentarios
+              </label>
+              <label for="otros">
+                <input type="checkbox" name="intereses" id="otros" value="otros">Otros
+              </label>
+            </div>
+          </div>
+          <div class="footer__formulario--col2">
+            <label for="comentarios">Comentarios</label>
+            <textarea name="comentarios" id="comentarios"></textarea>
+            <input class="button" type="submit" value="Enviar">
+          </div>
+        </form>
+      </div>
+    </footer>
+  </body>
+</html>
