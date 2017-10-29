@@ -14,18 +14,26 @@ body{
   width: 800px;
   margin: auto;
   &__guitarra{
-    &-a{
+    &--a{
 
     }
-    &-b{
+    &--b{
+      height: 190px;
       margin-left: 370px;
+      position: relative;
+      bottom: 40px;
     }
   }
 }
 
+.background{
+  background-image: url('../images/background.png');
+  background-size: cover;
+}
+
 .left{
   float: left;
-  top: 80px
+  // top: 80px
 }
 
 .right{
@@ -36,9 +44,18 @@ body{
 
 .button{
   margin-bottom: 70px;
-  border-radius: 6px;
+  border-radius: 14px;
+  font-size: 20px;
   border: none;
-  background-color: #fd324e;
+  background: linear-gradient(to left, #fe344e, #ff7250);
   color: white;
-  padding: 7px;
+  padding: 7px 20px;
+}
+
+input, textarea{
+  outline: 0;
+}
+
+input:focus, textarea:focus{
+  background-color: lightgray;
 }

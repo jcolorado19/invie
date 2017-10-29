@@ -1,5 +1,6 @@
 .footer{
   background-color: #273b47;
+  padding: 20px 10px;
   & .container{
     display: flex;
     justify-content: space-between;
@@ -9,6 +10,7 @@
     width: 300px;
     flex-wrap: wrap;
     align-items: center;
+    height: 200px;
     & strong{
       display: block;
     }
@@ -26,7 +28,6 @@
     flex-flow: row;
     width: 400px;
     color: white;
-    padding: 30px 10px;
     & label, & .sexo, & .intereses{
       margin: 10px 0;
     }
@@ -42,6 +43,9 @@
       display: flex;
       flex-flow: column;
       align-items: flex-start;
+      & .button{
+        margin-top: 15px;
+      }
     }
   }
 }

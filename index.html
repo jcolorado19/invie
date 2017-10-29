@@ -7,26 +7,26 @@
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
-    <header class="header container"> <!-- header -->
-      <figure class="header__logotipo"><!-- logotipo -->
-        <img src="images/invie.png" alt="Imagen logotipo" width="186px" height="60px">
-      </figure>
-      <nav class="header__menu"><!-- menu -->
-        <ul class="menu">
-          <li class="menu__item"><a href="index.html">Home</a></li>
-          <li class="menu__item"><a href="#guitarras">Guitarras</a></li>
-          <li class="menu__item"><a href="precios.html">Precios</a></li>
-        </ul>
-      </nav>
-    </header>
-    <section class="portada"> <!-- portada -->
+    <section class="portada background"> <!-- portada -->
+      <header class="header container"> <!-- header -->
+        <figure class="header__logotipo"><!-- logotipo -->
+          <img src="images/invie.png" alt="Imagen logotipo" width="186px" height="60px">
+        </figure>
+        <nav class="header__menu"><!-- menu -->
+          <ul class="menu">
+            <li class="menu__item"><a href="index.html">Home</a></li>
+            <li class="menu__item"><a href="#guitarras">Guitarras</a></li>
+            <li class="menu__item"><a href="precios.html">Precios</a></li>
+          </ul>
+        </nav>
+      </header>
       <div class="container">
         <!-- titulo -->
-        <h1 class="portada__title">Guitarras inviesibles</h1>
+        <h1 class="portada__title">Guitarras <span>invie</span>sibles</h1>
         <!-- resume -->
         <h3 class="portada__subtitle">Sé la estrella de rock que siempre quisiste ser</h3>
         <!-- boton -->
-        <button class="portada__button button" type="button" name="button">Conoce más</button>
+        <a class="portada__button button" type="button" name="button">Conoce más</a>
       </div>
     </section>
     <section id="guitarras" class="guitarras container"> <!-- guitarras -->
@@ -35,7 +35,7 @@
       <!-- guitarra 1 -->
       <article class="guitarras__article">
         <img class="guitarras__article__img right" src="images/invie-acustica.png" alt="Guitarra invie acustica" width="350">
-        <div class="container__guitarra-a">
+        <div class="container__guitarra--a">
           <h3 class="guitarras__article__title">Invie Acustica</h3>
           <ol class="guitarras__article__list">
             <li class="guitarras__article__list__item">Estilo vintage</li>
@@ -45,9 +45,9 @@
         </div>
       </article>
       <!-- guitarra 2 -->
-      <article class="guitarras__article">
+      <article class="guitarras__article b">
         <img class="guitarras__article__img left" src="images/invie-classic.png" alt="Guitarra invie Classic" width="350">
-        <div class="container__guitarra-b">
+        <div class="container__guitarra--b">
           <h3 class="guitarras__article__title">Invie Classic</h3>
           <ol class="guitarras__article__list">
             <li class="guitarras__article__list__item">Estilo vintage</li>
